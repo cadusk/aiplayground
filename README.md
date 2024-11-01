@@ -44,12 +44,13 @@ To get started, follow the instructions below to set up the environment and run 
 
 2. **Setup the virtual environment**
     ```bash
-    python3 -m venv env
-    source env/bin/activate  # On Windows: env\Scripts\activate
+    python3 -m venv .venv
+    source .venv/bin/activate  # On Windows: env\Scripts\activate
     ```
 
 3. **Install the required packages**
     ```bash
+    pip install -U pip
     pip install -r requirements.txt
     ```
 
